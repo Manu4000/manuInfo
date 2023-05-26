@@ -53,6 +53,11 @@ font-size: 1.1rem;
   text-align: center;
 }
 
+.conocimiento img{
+width: 16rem;
+height: 14rem;
+}
+
 @media (max-width: 550px){
   .manu{
    margin-top: 10rem;
@@ -64,6 +69,13 @@ font-size: 1.1rem;
     margin-top: 0;
     border-radius: 1rem;
   }
+  .secciones{
+    text-align: center;
+  }
+  .conocimiento img{
+    width: 5rem;
+    height: 7rem;
+    }
 
   .presentacion{
  text-align: center;

@@ -4,7 +4,9 @@ import "./Components/Styles.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navegacion from "./Components/navBar"
 import Fondo from "./Components/fondoPrincipal"
-import {About} from "./Components/About"
+import { About } from "./Components/About"
+import Conocimiento  from "./Components/Conocimiento";
+import { Logos } from "./Components/Conocimiento";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -13,8 +15,10 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
     <>
-    <Navegacion/>
-    <Fondo/>
-    <About/>
+        <Navegacion />
+        <Fondo />
+        <About />
+        <Conocimiento />
+        <Logos/>
     </>
 );
