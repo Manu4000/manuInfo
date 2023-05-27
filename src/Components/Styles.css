@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto&display=swap");
 
-body{
-  cursor: url('./img/cursor.png')
-}
+
 
 .background{
   background-color: #0B192F;
@@ -43,7 +41,7 @@ font-family: 'Zodiak', serif;
 .secciones{
 padding: 7rem;
 font-size: 1.1rem;
-  
+font-family: 'Zodiak', serif;
 }
 .secciones img{
   width: 20rem;
@@ -53,10 +51,14 @@ font-size: 1.1rem;
   text-align: center;
 }
 
-.conocimiento img{
-width: 16rem;
-height: 14rem;
+
+.logo-img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin: 10px;
 }
+
 
 @media (max-width: 550px){
   .manu{
@@ -73,7 +75,7 @@ height: 14rem;
     text-align: center;
   }
   .conocimiento img{
-    width: 5rem;
+    width: 7rem;
     height: 7rem;
     }
 
@@ -81,5 +83,7 @@ height: 14rem;
  text-align: center;
  
     }
+
+      
 
 }

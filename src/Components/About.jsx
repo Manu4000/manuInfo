@@ -7,14 +7,14 @@ import { Container } from "react-bootstrap";
 
 export function About() {
   return (
-    <main className="background " id="about">
+    <main className="background d-flex " id="about">
       <Container>
         <Row>
           <Col
-            className="col-lg-7 col-md-10 col-sm-12 secciones my-5  "
+            className="col-lg-7 col-md-12 col-sm-12 secciones my-5 "
             data-aos="fade-up-right"
           >
-            <h2 className="text-light text-center mx-5 my-5">Acerca de mi</h2>
+            <h2 className="text-light text-center mx-5 my-5"><b> Acerca de mi </b></h2>
             <p className="text-light text-center mx-5 my-5">
               Un apasionado programador Full Stack. Comencé mi viaje en el mundo
               del desarrollo web en octubre de 2022 y desde entonces he
@@ -35,7 +35,7 @@ export function About() {
               proyectos innovadores en el mundo de la tecnología
             </p>
           </Col>
-          <Col className="col-lg-5 col-md-2 col-sm-12 d-flex justify-content-center secciones">
+          <Col className="col-lg-5 col-md-12 col-sm-12 d-flex justify-content-center secciones">
             <img src={about} alt="" data-aos="fade-up-left" />
           </Col>
         </Row>
