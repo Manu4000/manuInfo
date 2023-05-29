@@ -11,19 +11,19 @@ import mongo from "./img/mongoLogo.png";
 
 function Logos() {
   return (
-    <main className="background">
+    <main className="background ">
       <Container>
-        <Row>
+        <Row className="img-fluid">
           <h2 className="text-light align-items-center d-flex justify-content-center presentacion">
             <b> Tecnologías</b>
           </h2>
-          <Col className="d-flex flex-wrap justify-content-center align-items-center col-lg-12 col-md-12 col-sm-12 my-5" data-aos="zoom-in-up">
-            <img src={react} alt="" className="logo-img " />
+          <Col className="d-flex flex-wrap justify-content-center align-items-center col-lg-12 col-md-12 col-sm-12 my-5 img-fluid" data-aos="zoom-in-up">
+            <img src={react} alt="" className="logo-img  " />
             <img src={gitHub} alt="" className="logo-img " />
             <img src={js} alt="" className="logo-img" />
             <img src={node} alt="" className="logo-img " />
-            <img src={git} alt="" className="logo-img " />
-            <img src={mongo} alt="" className="logo-img " />
+            <img src={git} alt="" className="logo-img" />
+            <img src={mongo} alt="" className="logo-img" />
 
           </Col>
         </Row>
