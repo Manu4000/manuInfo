@@ -1,11 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto&display=swap");
 
-
-
-.background{
-  background-color: #0B192F;
+.background {
+  background-color: #0b192f;
 }
-.manu{
+.manu {
   margin-bottom: 3rem;
   text-align: center;
   width: 14rem;
@@ -17,7 +15,7 @@
   margin-left: 5rem;
   margin-top: 15rem;
 }
-.logo{
+.logo {
   margin-bottom: 3rem;
   text-align: center;
   width: 5rem;
@@ -25,25 +23,24 @@
   border: 0.5rem solid rgba(0, 0, 0, 0.1);
   border-radius: 100% !important;
   margin-bottom: 0;
-  
 }
-.juntar{
+.juntar {
   display: flex;
 }
-.presentacion{
-margin-top: 16.5rem;
-margin-left: 1rem;
-padding: 1rem;
-font-size: 2.5rem;
-text-align: center;
-font-family: 'Zodiak', serif;
+.presentacion {
+  margin-top: 16.5rem;
+  margin-left: 1rem;
+  padding: 1rem;
+  font-size: 2.5rem;
+  text-align: center;
+  font-family: "Zodiak", serif;
 }
-.secciones{
-padding: 7rem;
-font-size: 1.1rem;
-font-family: 'Zodiak', serif;
+.secciones {
+  padding: 7rem;
+  font-size: 1.1rem;
+  font-family: "Zodiak", serif;
 }
-.secciones img{
+.secciones img {
   width: 20rem;
   height: 20rem;
   margin-top: 5rem;
@@ -55,8 +52,6 @@ font-family: 'Zodiak', serif;
   height: auto;
 }
 
-
-
 .logo-img {
   width: 100%;
   max-width: 200px;
@@ -64,36 +59,33 @@ font-family: 'Zodiak', serif;
   margin: 10px;
 }
 
-
-@media (max-width: 550px){
-  .manu{
-   margin-top: 10rem;
-   margin-left: 2rem;
+@media (max-width: 500px) {
+  .manu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
-  .secciones{
+  .secciones {
     text-align: center;
   }
-  .conocimiento img{
+  .conocimiento img {
     width: 7rem;
     height: 7rem;
-    }
+  }
 
-  .presentacion{
- text-align: center;
- 
-    }
-    .secciones img{
-      width: 13rem;
-      height: 13rem;
-      margin-top: 5rem;
-      border-radius: 1rem;
-      display: flex;
-      justify-content: center;
-      align-items: center ;
-      margin: auto;
-      padding: auto;
-    }
-      
-
+  .presentacion {
+    text-align: center;
+  }
+  .secciones img {
+    width: 13rem;
+    height: 13rem;
+    margin-top: 5rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: auto;
+  }
 }
