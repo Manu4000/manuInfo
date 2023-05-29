@@ -16,7 +16,7 @@ function Fondo() {
                     <Col className="col-lg-7 col-md-12 col-sm-12">
                         <div>
                             <strong>
-                                <p className="text-light presentacion text-center" data-aos="fade-up-left" > ¡Hola!  soy Manuel Torres Desarrollador Full Stack, Bienvenido!
+                                <p className="text-light presentacion text-center" data-aos="fade-up-left" > ¡Hola!  soy Manuel Torres Desarrollador Full Stack, Bienvenido
                                 </p>
                             </strong>
                         </div></Col>
