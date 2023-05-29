@@ -4,7 +4,7 @@ import about from "./img/about_Manu.png";
 import "./Styles.css"; 
 export function About() {
   return (
-    <main className="background d-flex" id="about">
+    <main className="background d-flex overflow-hidden" id="about">
       <Container>
         <Row className="img-fluid">
           <Col

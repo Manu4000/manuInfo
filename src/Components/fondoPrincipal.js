@@ -5,7 +5,7 @@ import "./Styles.css";
 
 function Fondo() {
   return (
-    <div className="overflow-hidden"> {/* Agregamos una clase para ocultar el desbordamiento horizontal */}
+    <div className="overflow-hidden"> 
       <header className="background d-flex">
         <Container>
           <Row className="align-items-center">

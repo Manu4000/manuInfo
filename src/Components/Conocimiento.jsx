@@ -5,7 +5,7 @@ import { Container } from "react-bootstrap";
 
 function Conocimiento() {
   return (
-    <main className="background" id="conocimientos">
+    <main className="background overflow-hidden" id="conocimientos">
      
         <Row className="img-fluid d-flex justify-content-center">
           <Col
