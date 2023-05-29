@@ -9,7 +9,7 @@ function Conocimiento() {
       <Container>
         <Row className="img-fluid">
           <Col
-            className="col-lg-12 col-md-10 col-sm-12 secciones my-5"
+            className="col-lg-12 col-md-12 col-sm-12 secciones my-5"
             data-aos="fade-up-right"
           >
             <h2 className="text-light text-center mx-5 my-5">

@@ -8,7 +8,7 @@ export function About() {
       <Container>
         <Row className="img-fluid">
           <Col
-            lg={8}
+            lg={12}
             md={12}
             sm={12}
             className="secciones my-5"
@@ -38,7 +38,7 @@ export function About() {
             </div>
           </Col>
           <Col
-            lg={4}
+            lg={12}
             md={12}
             sm={12}
             className="secciones d-flex justify-content-center align-items-center"
