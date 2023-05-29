@@ -6,8 +6,8 @@ import { Container } from "react-bootstrap";
 function Conocimiento() {
   return (
     <main className="background" id="conocimientos">
-      <Container>
-        <Row className="img-fluid">
+     
+        <Row className="img-fluid d-flex justify-content-center">
           <Col
             className="col-lg-12 col-md-12 col-sm-12 secciones my-5"
             data-aos="fade-up-right"
@@ -40,7 +40,6 @@ function Conocimiento() {
             </div>
           </Col>
         </Row>
-      </Container>
     </main>
   );
 }

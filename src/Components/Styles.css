@@ -58,6 +58,10 @@
   height: auto;
   margin: 10px;
 }
+.overflow-hidden {
+  overflow-x: hidden;
+}
+
 
 @media (max-width: 500px) {
   .manu {
