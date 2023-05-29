@@ -8,7 +8,7 @@ export function About() {
       <Container>
         <Row className="img-fluid">
           <Col
-            lg={12}
+            lg={8}
             md={12}
             sm={12}
             className="secciones my-5"
@@ -35,6 +35,16 @@ export function About() {
                 emocionado de seguir creciendo como desarrollador y contribuir a
                 proyectos innovadores en el mundo de la tecnología.
               </p>
+            </div>
+          </Col>
+          <Col
+            lg={4}
+            md={12}
+            sm={12}
+            className="secciones d-flex justify-content-center align-items-center"
+          >
+            <div className="img-fluid d-flex justify-content-center align-items-center" >
+              <img src={about} alt="" data-aos="fade-up-left" className="img-fluid responsive-image" />
             </div>
           </Col>
         </Row>
