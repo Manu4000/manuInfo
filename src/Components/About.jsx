@@ -37,16 +37,6 @@ export function About() {
               </p>
             </div>
           </Col>
-          <Col
-            lg={12}
-            md={12}
-            sm={12}
-            className="secciones d-flex justify-content-center align-items-center"
-          >
-            <div className="img-fluid d-flex justify-content-center align-items-center" >
-              <img src={about} alt="" data-aos="fade-up-left" className="img-fluid responsive-image" />
-            </div>
-          </Col>
         </Row>
       </Container>
     </main>
