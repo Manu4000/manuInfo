@@ -37,16 +37,7 @@ export function About() {
               </p>
             </div>
           </Col>
-          <Col
-            lg={5}
-            md={12}
-            sm={12}
-            className="secciones d-flex justify-content-center"
-          >
-            <div className="d-flex justify-content-center">
-              <img src={about} alt="" data-aos="fade-up-left" style={{ maxWidth: '100%', height: 'auto' }} />
-            </div>
-          </Col>
+  
         </Row>
       </Container>
     </main>
