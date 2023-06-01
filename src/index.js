@@ -7,6 +7,7 @@ import Fondo from "./Components/fondoPrincipal"
 import { About } from "./Components/About"
 import Conocimiento from "./Components/Conocimiento";
 import Logos from "./Components/logos";
+import { Footer } from "./Components/footer";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -20,5 +21,6 @@ root.render(
         <About />
         <Conocimiento />
         <Logos />
+        <Footer/>
     </>
 );
