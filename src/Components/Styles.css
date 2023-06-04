@@ -67,10 +67,7 @@
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   background-color: #1d1c22;
 }
-.qr{
-  width: 7rem;
-  height: 7rem;
-}
+
 
 @media (max-width: 500px) {
   .manu {
