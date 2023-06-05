@@ -1,4 +1,3 @@
-import qr from "./img/manutorres_2000_qr.png"
 export function Footer() {
   return (
     <footer class="footer py-4 background">
@@ -23,12 +22,8 @@ export function Footer() {
               <i class="fab fa-instagram"></i>
             </a>
           </div>
-          <div className="col-lg-4 text-lg-end">
-            <img
-              src={qr}
-              alt=""
-              class="qr"
-            />
+          <div className="col-lg-4 text-lg-end text-light">
+            <p>Desarrollado por Manuel Torres</p>
           </div>
         </div>
       </div>
