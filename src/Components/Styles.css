@@ -61,12 +61,59 @@
 .overflow-hidden {
   overflow-x: hidden;
 }
+.formin {
+  width: 400px;
+  background-color: #24303c;
+  padding: 30px;
+  border-radius: 4px;
+  font-family: "Lato", sans-serif;
+}
+
+.formin h5 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: white;
+}
+.colore {
+  color: white;
+}
+.formin .botons {
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+.formin p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+}
+.formin a:hover {
+  color: white;
+  text-decoration: underline;
+}
+.controls {
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  color: white;
+}
 .footer {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   background-color: #1d1c22;
 }
+
 
 
 @media (max-width: 500px) {
