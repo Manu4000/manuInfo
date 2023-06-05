@@ -9,14 +9,14 @@ export function Footer() {
           <div class="col-lg-4 my-3 my-lg-0">
             <a
               class="btn btn-light btn-social mx-2"
-              href="https://www.facebook.com/search/top?q=jci%20casilda"
+              href="https://github.com/Manu4000"
               aria-label="Facebook"
             >
               <i class="fab fa-github"></i>
             </a>
             <a
               class="btn btn-light btn-social mx-2"
-              href="https://www.instagram.com/jcicasilda/?hl=es"
+              href="https://www.instagram.com/manutorres_2000/"
               aria-label="instagram"
             >
               <i class="fab fa-instagram"></i>
