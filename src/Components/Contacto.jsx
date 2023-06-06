@@ -1,29 +1,24 @@
 import React, { useState } from "react";
 
 export function Contacto() {
-  const [mensajeEnviado, setMensajeEnviado] = useState(false);
+  const [mensajeEnviado] = useState(false);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
 
-    setMensajeEnviado(true);
-
-    e.target.reset();
-  };
 
   return (
     <section className="register-background background d-flex justify-content-center align-items-center p-5">
       {mensajeEnviado ? (
-        <p className="text-center">
-          Mensaje enviado, en un plazo máximo de 24hs me pondré en contacto
-          contigo
-        </p>
+        <div className="mensajeEnviado" data-aos="zoom-in-up">
+          <p className="text-center">
+            Mensaje enviado, en un plazo máximo de 24hs me pondré en contacto contigo
+          </p>
+        </div>
       ) : (
         <form
           className="formin"
           action="https://formsubmit.co/ff4fd77f6f3f08c1379a8b75b8e24800"
           method="POST"
-          onSubmit={handleSubmit}
+        
         >
           <h5 className="text-center">Formulario de Contacto</h5>
           <label className="colore text-center" htmlFor="nombres">
