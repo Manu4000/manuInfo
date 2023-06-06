@@ -20,7 +20,7 @@ export function Navegacion() {
             <Nav.Link href="#conocimientos" className="text-light">
               Conocimientos
             </Nav.Link>
-            <Nav.Link href="#pricing" className="text-light">
+            <Nav.Link href="#Contacto" className="text-light">
               Contacto
             </Nav.Link>
           </Nav>

@@ -14,7 +14,7 @@ function Fondo() {
             </Col>
 
             <Col lg={8} md={12} sm={12}>
-              <div>
+              <div className='d-flex justify-content-center'>
                 <strong>
                   <p className="text-light presentacion text-center" data-aos="fade-up-left">¡Hola! Soy Manuel Torres, Desarrollador Full Stack. ¡Bienvenido!</p>
                 </strong>

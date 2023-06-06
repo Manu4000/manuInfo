@@ -15,7 +15,7 @@ function Logos() {
       <Container>
         <Row className="img-fluid">
           <h2 className="text-light align-items-center d-flex justify-content-center presentacion">
-            <b> Tecnologías</b>
+            <b className="text-center"> Tecnologías</b>
           </h2>
           <Col className="d-flex flex-wrap justify-content-center align-items-center col-lg-12 col-md-12 col-sm-12 my-5 img-fluid" data-aos="zoom-in-up">
             <img src={react} alt="" className="logo-img  " />
