@@ -28,8 +28,11 @@ function Conocimiento() {
               <p className="text-light text-center mx-5 my-5">
                 En el backend, domino lenguajes como JavaScript con Node.js para
                 crear APIs robustas y escalables. Además, trabajo con bases de
-                datos no relacionales como MongoDB. A su vez, tengo
-                conocimientos en control de versiones con Git y GitHub.
+                datos no relacionales como MongoDB y relacionales como Express.
+              </p>
+              <p className="text-light text-center mx-5 my-5">
+                A su vez, tengo conocimientos en control de versiones con Git y
+                GitHub.
               </p>
               <p className="text-light text-center mx-5 my-5">
                 Mi objetivo es utilizar estos conocimientos para desarrollar
