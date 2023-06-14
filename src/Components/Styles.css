@@ -140,6 +140,10 @@ border-radius: 5%;
     width: 7rem;
     height: 7rem;
   }
+  .proyectos{
+    background-color: #0b192f;
+    margin-top: px;
+  }
 
   .presentacion {
     text-align: center;
@@ -155,4 +159,11 @@ border-radius: 5%;
     margin: auto;
     padding: auto;
   }
+}
+.order-md-1 {
+  order: 1;
+}
+
+.order-md-2 {
+  order: 2;
 }
