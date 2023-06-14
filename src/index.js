@@ -9,6 +9,7 @@ import Conocimiento from "./Components/Conocimiento";
 import Logos from "./Components/logos";
 import { Footer } from "./Components/footer";
 import { Contacto } from "./Components/Contacto";
+import { Misproyectos } from "./Components/Misproyectos";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -22,6 +23,7 @@ root.render(
         <About />
         <Conocimiento />
         <Logos />
+        <Misproyectos/>
         <Contacto/>
         <Footer/>
     </>
