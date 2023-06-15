@@ -159,6 +159,13 @@ border-radius: 5%;
     margin: auto;
     padding: auto;
   }
+  .order-md-1 {
+    order: 2;
+  }
+  
+  .order-md-2 {
+    order: 1;
+  }
 }
 .order-md-1 {
   order: 1;

@@ -13,7 +13,7 @@ export function Misproyectos() {
     <main className="background">
     <Container>
       <Row>
-        <Col lg={7} md={12} sm={12} className="order-md-2">
+        <Col lg={7} md={12} sm={12} className="order-md-1">
           <Carousel activeIndex={index} onSelect={handleSelect} className="proyectos">
             <Carousel.Item>
               <a href="https://jcicasilda.netlify.app/index/">
@@ -25,7 +25,7 @@ export function Misproyectos() {
             </Carousel.Item>
           </Carousel>
         </Col>
-        <Col lg={5} md={12} sm={12} className="my-5 order-md-1">
+        <Col lg={5} md={12} sm={12} className="my-5 order-md-2">
           <div>
             <h1 className="text-center text-light">Mis Proyectos</h1>
           </div>
