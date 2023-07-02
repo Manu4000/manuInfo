@@ -25,7 +25,7 @@ export function Misproyectos() {
             </Carousel.Item>
           </Carousel>
         </Col>
-        <Col lg={5} md={12} sm={12} className="my-5 order-md-2">
+        <Col lg={5} md={12} sm={12} className=" order-md-2">
           <div>
             <h1 className="text-center text-light">Mis Proyectos</h1>
           </div>
@@ -34,7 +34,7 @@ export function Misproyectos() {
               En este espacio encontrarás una recopilación de los proyectos que he creado a lo largo de mi trayectoria profesional. Cada proyecto es el resultado de mi pasión por el desarrollo y la innovación.
             </p>
             <p>
-              Te invito a navegar por los proyectos y descubrir la diversidad de habilidades y tecnologías que he utilizado en su desarrollo. Cada proyecto tiene su propia historia y muestra mi capacidad para adaptarme a diferentes desafíos y entornos de trabajo.
+              Te invito a navegar por los proyectos y descubrir la diversidad de habilidades y tecnología que he utilizado en su desarrollo. Cada proyecto tiene su propia historia y muestra mi capacidad para adaptarme a diferentes desafíos y entornos de trabajo.
             </p>
           </div>
         </Col>
